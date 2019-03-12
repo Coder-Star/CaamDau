@@ -127,7 +127,7 @@ private class CD_StringSize {
         for string in array {
             singleWordRect = string.boundingRect(with: CGSize(width: 100, height: 100),
                                                  options: .usesLineFragmentOrigin,
-                                                 attributes: [NSAttributedStringKey.font: font],
+                                                 attributes: [NSAttributedString.Key.font: font],
                                                  context: nil)
             widthDictionary[string] = singleWordRect.size.width
         }
@@ -187,7 +187,7 @@ private class CD_StringSize {
                 let tempString = String(character)
                 let width = tempString.boundingRect(with: CGSize(width: CGFloat.greatestFiniteMagnitude, height: CGFloat.greatestFiniteMagnitude),
                                                     options: .usesLineFragmentOrigin,
-                                                    attributes: [NSAttributedStringKey.font: font],
+                                                    attributes: [NSAttributedString.Key.font: font],
                                                     context: nil).size.width
                 totalWidth += width
                 widthDictionary[tempString] = width

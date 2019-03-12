@@ -32,7 +32,7 @@ public extension CD where Base: UIAlertController {
     func title(_ font:UIFont) -> CD {
         let attributed:NSAttributedString = base.value(forKey: "attributedTitle") as? NSAttributedString ?? NSMutableAttributedString(string: base.title ?? "")
         let attributedM = NSMutableAttributedString(attributedString: attributed)
-        attributedM.addAttribute(NSAttributedStringKey.font, value: font, range: NSMakeRange(0, attributedM.length))
+        attributedM.addAttribute(NSAttributedString.Key.font, value: font, range: NSMakeRange(0, attributedM.length))
         base.setValue(attributedM, forKey: "attributedTitle")
         return self
     }
@@ -40,7 +40,7 @@ public extension CD where Base: UIAlertController {
     func title(_ color:UIColor) -> CD {
         let attributed:NSAttributedString = base.value(forKey: "attributedTitle") as? NSAttributedString ?? NSMutableAttributedString(string: base.title ?? "")
         let attributedM = NSMutableAttributedString(attributedString: attributed)
-        attributedM.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: NSMakeRange(0, attributedM.length))
+        attributedM.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: NSMakeRange(0, attributedM.length))
         base.setValue(attributedM, forKey: "attributedTitle")
         return self
     }
@@ -58,7 +58,7 @@ public extension CD where Base: UIAlertController {
     func message(_ font:UIFont) -> CD {
         let attributed:NSAttributedString = base.value(forKey: "attributedMessage") as? NSAttributedString ?? NSMutableAttributedString(string: base.message ?? "")
         let attributedM = NSMutableAttributedString(attributedString: attributed)
-        attributedM.addAttribute(NSAttributedStringKey.font, value: font, range: NSMakeRange(0, attributedM.length))
+        attributedM.addAttribute(NSAttributedString.Key.font, value: font, range: NSMakeRange(0, attributedM.length))
         base.setValue(attributedM, forKey: "attributedMessage")
         return self
     }
@@ -66,7 +66,7 @@ public extension CD where Base: UIAlertController {
     func message(_ color:UIColor) -> CD {
         let attributed:NSAttributedString = base.value(forKey: "attributedMessage") as? NSAttributedString ?? NSMutableAttributedString(string: base.message ?? "")
         let attributedM = NSMutableAttributedString(attributedString: attributed)
-        attributedM.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: NSMakeRange(0, attributedM.length))
+        attributedM.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: NSMakeRange(0, attributedM.length))
         base.setValue(attributedM, forKey: "attributedMessage")
         return self
     }
