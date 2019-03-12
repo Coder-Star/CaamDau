@@ -10,9 +10,9 @@ public extension CD where Base: UICollectionView {
         var stringValue:String{
             switch self {
             case .tHeader:
-                return UICollectionView.elementKindSectionHeader
+                return UICollectionElementKindSectionHeader
             default:
-                return UICollectionView.elementKindSectionFooter
+                return UICollectionElementKindSectionFooter
             }
         }
     }

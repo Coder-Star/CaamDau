@@ -99,7 +99,7 @@ public extension UIImage {
         //let context = UIGraphicsGetCurrentContext()
         //context!.setFillColor(color.cgColor)
         
-        NSString(string: font.text).draw(at: point, withAttributes: [NSAttributedString.Key.font : font.font, NSAttributedString.Key.foregroundColor:color])
+        NSString(string: font.text).draw(at: point, withAttributes: [NSAttributedStringKey.font : font.font, NSAttributedStringKey.foregroundColor:color])
         
         guard let imageCG:CGImage = UIGraphicsGetImageFromCurrentImageContext()?.cgImage  else {
             assertionFailure("👉👉👉CGImage - 失败  👻")

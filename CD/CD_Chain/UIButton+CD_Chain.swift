@@ -92,7 +92,7 @@ public extension CD where Base: UIButton {
                  style:UIActivityIndicatorView.Style = .gray,
                  activityColor:UIColor = .clear) -> CD {
         base.isEnabled = false
-        let activity = UIActivityIndicatorView(style: style)
+        let activity = UIActivityIndicatorView(activityIndicatorStyle: style)
         activity.startAnimating()
         let view = UIView()
         view.tag = -8668

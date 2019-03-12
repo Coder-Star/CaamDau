@@ -59,7 +59,7 @@ class VC_ImageTest: UICollectionViewController {
             
         }
         
-        self.collectionView.reloadData()
+        self.collectionView?.reloadData()
     }
 
     

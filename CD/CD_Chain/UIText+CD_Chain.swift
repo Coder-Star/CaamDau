@@ -25,7 +25,8 @@ public extension CD where Base: UITextField {
         return self
     }
     @discardableResult
-    func text(default attributes:[NSAttributedString.Key : Any]) -> CD {
+    //NSAttributedStringKey
+    func text(default attributes:[String : Any]) -> CD {
         base.defaultTextAttributes = attributes
         return self
     }
@@ -73,7 +74,7 @@ public extension CD where Base: UITextField {
         return self
     }
     @discardableResult
-    func typing(attributes b:[NSAttributedString.Key : Any]) -> CD {
+    func typing(attributes b:[String : Any]) -> CD {
         base.typingAttributes = b
         return self
     }
@@ -121,7 +122,7 @@ public extension CD where Base: UITextView {
         return self
     }
     @discardableResult
-    func typing(attributes b:[NSAttributedString.Key : Any]) -> CD {
+    func typing(attributes b:[String : Any]) -> CD {
         base.typingAttributes = b
         return self
     }
