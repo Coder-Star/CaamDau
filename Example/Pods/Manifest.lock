@@ -1,0 +1,235 @@
+PODS:
+  - Alamofire (4.9.1)
+  - CaamDau (0.17.9):
+    - CaamDau/Core (= 0.17.9)
+  - CaamDau/All (0.17.9):
+    - CaamDau/FDFullscreenPopGesture
+    - CaamDau/MJRefresh
+    - CaamDau/Module
+    - CaamDau/Net/All
+    - CaamDau/ViewModel/BaseUI
+  - CaamDau/AppDelegate (0.17.9)
+  - CaamDau/Calendar (0.17.9):
+    - CaamDau/Core
+    - SnapKit
+  - CaamDau/Core (0.17.9)
+  - CaamDau/Empty (0.17.9):
+    - CaamDau/Extension
+  - CaamDau/Extension (0.17.9)
+  - CaamDau/FDFullscreenPopGesture (0.17.9):
+    - CaamDau/Core
+    - FDFullscreenPopGesture
+  - CaamDau/HUD (0.17.9):
+    - CaamDau/Core
+    - CaamDau/IconFont
+    - CaamDau/Timer
+    - SnapKit
+  - CaamDau/IBInspectable (0.17.9)
+  - CaamDau/IconFont (0.17.9):
+    - CaamDau/Core
+  - CaamDau/Indexes (0.17.9):
+    - CaamDau/Core
+    - SnapKit
+  - CaamDau/InputBox (0.17.9):
+    - CaamDau/Core
+    - SnapKit
+  - CaamDau/MJRefresh (0.17.9):
+    - CaamDau/Core
+    - MJRefresh (= 3.2.0)
+  - CaamDau/Module (0.17.9):
+    - CaamDau/AppDelegate
+    - CaamDau/Calendar
+    - CaamDau/Core
+    - CaamDau/Empty
+    - CaamDau/HUD
+    - CaamDau/IBInspectable
+    - CaamDau/IconFont
+    - CaamDau/Indexes
+    - CaamDau/InputBox
+    - CaamDau/Page
+    - CaamDau/Router
+    - CaamDau/Timer
+    - CaamDau/TopBar
+    - CaamDau/ViewModel/Core
+  - CaamDau/Net/All (0.17.9):
+    - CaamDau/Net/Cache
+    - CaamDau/Net/Codable
+    - CaamDau/Net/Core
+    - CaamDau/Net/SwiftyJSON
+  - CaamDau/Net/Cache (0.17.9):
+    - CaamDau/Core
+    - CaamDau/Net/Core
+    - Cache
+  - CaamDau/Net/Codable (0.17.9):
+    - CaamDau/Net/Core
+    - CleanJSON
+  - CaamDau/Net/Core (0.17.9):
+    - Alamofire
+    - CaamDau/Core
+  - CaamDau/Net/SwiftyJSON (0.17.9):
+    - CaamDau/Net/Core
+    - SwiftyJSON
+  - CaamDau/Page (0.17.9):
+    - CaamDau/Core
+    - CaamDau/FDFullscreenPopGesture
+    - SnapKit
+  - CaamDau/Router (0.17.9):
+    - CaamDau/Core
+  - CaamDau/Timer (0.17.9):
+    - CaamDau/Core
+  - CaamDau/TopBar (0.17.9):
+    - CaamDau/Core
+    - CaamDau/FDFullscreenPopGesture
+    - CaamDau/IconFont
+    - CaamDau/Value
+    - SnapKit
+  - CaamDau/Value (0.17.9)
+  - CaamDau/ViewModel/BaseUI (0.17.9):
+    - CaamDau/MJRefresh
+    - CaamDau/TopBar
+    - CaamDau/ViewModel/Core
+    - SnapKit
+  - CaamDau/ViewModel/Core (0.17.9):
+    - CaamDau/Core
+  - Cache (5.2.0)
+  - CleanJSON (1.0.0)
+  - Demo (0.1.0):
+    - CaamDau
+    - Sign
+    - Util
+  - FDFullscreenPopGesture (1.1)
+  - Home (0.1.0):
+    - CaamDau
+    - Util
+    - Web
+  - KeychainAccess (3.2.1)
+  - Mine (0.1.0):
+    - CaamDau
+    - Sign
+    - SkeletonView
+    - SnapKit
+    - Util
+    - Web
+  - MJRefresh (3.2.0)
+  - Models (0.1.0)
+  - Publish (0.1.0):
+    - CaamDau
+  - Rx (0.1.0):
+    - CaamDau
+    - Home
+  - Sign (0.1.0):
+    - CaamDau
+    - Util
+  - SkeletonView (1.8.2)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+  - TabbarNavigation (0.1.0):
+    - CaamDau
+    - Demo
+    - Home
+    - Mine
+    - Publish
+    - Rx
+    - Sign
+  - Util (0.1.0):
+    - Util/Core (= 0.1.0)
+  - Util/Assets (0.1.0):
+    - CaamDau
+  - Util/Config (0.1.0):
+    - CaamDau
+  - Util/Core (0.1.0):
+    - Util/Assets
+    - Util/Config
+    - Util/Crypto
+    - Util/Extension
+    - Util/HUD
+    - Util/Net
+    - Util/User
+  - Util/Crypto (0.1.0)
+  - Util/Extension (0.1.0):
+    - CaamDau
+  - Util/HUD (0.1.0):
+    - CaamDau
+  - Util/Net (0.1.0):
+    - CaamDau/Net/All
+  - Util/User (0.1.0):
+    - CaamDau
+    - KeychainAccess (~> 3.2.0)
+  - Web (0.1.0):
+    - CaamDau
+    - SnapKit
+
+DEPENDENCIES:
+  - CaamDau/All (from `../`)
+  - Demo (from `./Module/`)
+  - Home (from `./Module/`)
+  - Mine (from `./Module/`)
+  - Models (from `./Module/`)
+  - Publish (from `./Module/`)
+  - Rx (from `./Module/`)
+  - Sign (from `./Module/`)
+  - TabbarNavigation (from `./Module/`)
+  - Util (from `./Util/`)
+  - Web (from `./Module/`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Cache
+    - CleanJSON
+    - FDFullscreenPopGesture
+    - KeychainAccess
+    - MJRefresh
+    - SkeletonView
+    - SnapKit
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  CaamDau:
+    :path: "../"
+  Demo:
+    :path: "./Module/"
+  Home:
+    :path: "./Module/"
+  Mine:
+    :path: "./Module/"
+  Models:
+    :path: "./Module/"
+  Publish:
+    :path: "./Module/"
+  Rx:
+    :path: "./Module/"
+  Sign:
+    :path: "./Module/"
+  TabbarNavigation:
+    :path: "./Module/"
+  Util:
+    :path: "./Util/"
+  Web:
+    :path: "./Module/"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CaamDau: 98dddda2ecad7e65bf749757fd6a1cfb8f5aef16
+  Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
+  CleanJSON: 702dd619e1329c6399a579aa19af311acf47e461
+  Demo: ba14178ae2395f595ad92bc532439ea62b0a7bd8
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Home: 7b87c1dfb2095a3b06728aef458a74d983036508
+  KeychainAccess: d5470352939ced6d6f7fb51cb2e67aae51fc294f
+  Mine: b649d90a4c0145c5f04c4e9ddfff4e308a315569
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  Models: b844753569fd344d118110c6a016bbb169eea1e4
+  Publish: 55a9406402ce618ddc4626d982be083c56b84618
+  Rx: 27abd4931a4c18f612f7c007e62a454204a04adc
+  Sign: 06193718fa2739b7d0cf9dc891d7c7b554598dce
+  SkeletonView: bb27c39857e5492136f02ee8a3aa78de55d12ecd
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TabbarNavigation: 6336ccaf96ff2964f1d8b3748840d353ecd57cd6
+  Util: a6d25534b8f73b154113305a61b5e2c16ecfc4e8
+  Web: 35456652f20b7f90c3ba5014236960205d7485f9
+
+PODFILE CHECKSUM: a4766896d38f19a6dc3a2f51348de00cff6923f0
+
+COCOAPODS: 1.8.4

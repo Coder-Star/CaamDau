@@ -1,0 +1,122 @@
+{
+  "name": "Util",
+  "version": "0.1.0",
+  "summary": "A 本地资源.",
+  "description": "TODO: A 本地资源，项目配置，通用组件.",
+  "homepage": "https://github.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liucaide": "565726319@qq.com"
+  },
+  "source": {
+    "git": ""
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "4.2",
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "dependencies": {
+        "Util/User": [
+
+        ],
+        "Util/HUD": [
+
+        ],
+        "Util/Config": [
+
+        ],
+        "Util/Net": [
+
+        ],
+        "Util/Assets": [
+
+        ],
+        "Util/Extension": [
+
+        ],
+        "Util/Crypto": [
+
+        ]
+      }
+    },
+    {
+      "name": "User",
+      "source_files": "Util/User/**/*",
+      "dependencies": {
+        "KeychainAccess": [
+          "~> 3.2.0"
+        ],
+        "CaamDau": [
+
+        ]
+      }
+    },
+    {
+      "name": "HUD",
+      "source_files": "Util/HUD/**/*",
+      "dependencies": {
+        "CaamDau": [
+
+        ]
+      }
+    },
+    {
+      "name": "Config",
+      "source_files": "Util/Config/Classes/**/*",
+      "resource_bundles": {
+        "Config": [
+          "Util/Config/Assets/*.{plist,xcassets}"
+        ]
+      },
+      "dependencies": {
+        "CaamDau": [
+
+        ]
+      }
+    },
+    {
+      "name": "Net",
+      "source_files": "Util/Net/**/*",
+      "dependencies": {
+        "CaamDau/Net/All": [
+
+        ]
+      }
+    },
+    {
+      "name": "Extension",
+      "source_files": "Util/Extension/**/*",
+      "dependencies": {
+        "CaamDau": [
+
+        ]
+      }
+    },
+    {
+      "name": "Crypto",
+      "source_files": "Util/Crypto/**/*"
+    },
+    {
+      "name": "Assets",
+      "source_files": "Util/Assets/Classes/**/*",
+      "resource_bundles": {
+        "Assets": [
+          "Util/Assets/Assets/*.{xcassets}"
+        ]
+      },
+      "dependencies": {
+        "CaamDau": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "4.2"
+}

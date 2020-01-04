@@ -1,0 +1,31 @@
+{
+  "name": "Publish",
+  "version": "0.1.0",
+  "summary": "A short description of Find.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liucaide": "565726319@qq.com"
+  },
+  "source": {
+    "git": ""
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Publish/Classes/**/*",
+  "resource_bundles": {
+    "Publish": [
+      "Publish/Nib/*.{storyboard}"
+    ]
+  },
+  "dependencies": {
+    "CaamDau": [
+
+    ]
+  }
+}

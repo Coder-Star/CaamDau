@@ -1,0 +1,6 @@
+framework module Sign {
+  umbrella header "Sign-umbrella.h"
+
+  export *
+  module * { export * }
+}

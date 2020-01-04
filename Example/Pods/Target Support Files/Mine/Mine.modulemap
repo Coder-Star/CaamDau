@@ -1,0 +1,6 @@
+framework module Mine {
+  umbrella header "Mine-umbrella.h"
+
+  export *
+  module * { export * }
+}

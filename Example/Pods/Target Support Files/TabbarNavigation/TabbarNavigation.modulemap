@@ -1,0 +1,6 @@
+framework module TabbarNavigation {
+  umbrella header "TabbarNavigation-umbrella.h"
+
+  export *
+  module * { export * }
+}

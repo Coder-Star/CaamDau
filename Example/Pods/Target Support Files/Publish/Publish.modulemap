@@ -1,0 +1,6 @@
+framework module Publish {
+  umbrella header "Publish-umbrella.h"
+
+  export *
+  module * { export * }
+}

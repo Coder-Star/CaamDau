@@ -34,6 +34,7 @@ TODO: Add long description of the pod here.
   s.dependency 'Util'
   s.dependency 'Web'
   s.dependency 'SnapKit'
+  s.dependency 'SkeletonView'
   #s.dependency 'RxSwift'
   #s.dependency 'RxCocoa'
   #s.dependency 'RxDataSources'
